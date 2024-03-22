@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FOODHUB.COM</title>
+    <link rel="stylesheet" type="text/css" href="food.css">
+    <!-- Link to the external JavaScript file -->
+    <script src="menu.js" defer></script>
+</head>
+<body>  
+    <ul>
+        <li><a class="active" href="home.html">Home</a></li>
+        <li><a href="foodmenu.html">Menu</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="contactusfooddemo.html">Contact Us</a></li>
+    </ul>
+    <h1>WELCOME TO THE BEST RESTAURANT IN KENYA</h1>
+    <img src="https://static.takeaway.com/images/restaurants/bg/01O03511/logo_465x320.png" width="30%">
+    <div id="location-form">
+        <form id="location-form" onsubmit="return redirectToFoodMenu()">
+            <label id="location-label" for="location">Enter your address or location:</label>
+            <input type="text" id="address" name="address" placeholder="Enter your address or location" required><br>
+            <input type="submit" id="submit-button" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
+

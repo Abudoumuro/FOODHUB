@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login</title>
+    <title>Register</title>
     <style>
         body {
             background-color: orange;
             font-family: Arial, sans-serif;
         }
-        #login-form {
+        #register-form {
             max-width: 300px;
             margin: 0 auto;
             background-color: #fff;
             padding: 20px;
             border-radius: 5px;
         }
-        input[type="text"], input[type="password"], input[type="submit"] {
+        input[type="text"], input[type="email"], input[type="password"], input[type="submit"] {
             width: 100%;
             padding: 10px;
             margin-bottom: 10px;
@@ -32,15 +32,13 @@
     </style>
 </head>
 <body>
-    <h1>Login</h1>
-    <div id="login-form">
-        <form id="loginForm" action="foodhub demo.html" >
-            <input type="text" name="username" placeholder="Username" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="submit" value="Login">
+    <h1>Register</h1>
+    <div id="register-form">
+        <form action="home.html" >
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="submit" value="Register">
         </form>
-        <p>New user? <a href="register.html">Register here</a></p>
     </div>
-    <script src="login.js"></script>
 </body>
 </html>
